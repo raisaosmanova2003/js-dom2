@@ -57,10 +57,12 @@ function editHandler(id) {
     let newname=prompt("New name")
     let newsurname=prompt("New surname")
     let newage=prompt("New age")
+    let newposition=prompt("new position")
     let newexperience=prompt("New experience")
     idloc.name=newname
     idloc.surname=newsurname
     idloc.age=newage
+    idloc.position=newposition
     idloc.experience=newexperience
     renderUi(users)
 }
